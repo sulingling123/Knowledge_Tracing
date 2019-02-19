@@ -13,3 +13,8 @@
     - [Exercise-Enhanced Sequential Modeling for Student Performance Prediction](https://github.com/ZoeYuhan/Knowledge_Tracing/blob/master/Paper/Exercise-Enhanced%20Sequential%20Modeling%20for%20Student%20Performance%20Prediction.pdf)
         - 将题面信息引入，不仅作为输入送入模型，而且将题目编码后的向量计算cosine相似度作为atention的socre
         
+----
+### Acknowledgement
+- Blog:
+    - [深度知识追踪](https://blog.csdn.net/Zoe_Su/article/details/84481651)
+    - [论文导读：Exercise-Enhanced Sequential Modeling for Student Performance Prediction](https://blog.csdn.net/Zoe_Su/article/details/84566409)
