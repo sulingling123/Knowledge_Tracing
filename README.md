@@ -1,5 +1,4 @@
 # Knowledge_Tracing
-=====
 - Paper ： 知识追踪相关论文
     - Deep Knowledge Tracing:
         - 首次提出将RNN用于知识追踪，并能够基于复杂的知识联系进行建模（如构建知识图谱）
