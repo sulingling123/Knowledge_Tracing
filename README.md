@@ -12,9 +12,26 @@
         - 指出DKT模型现存缺点：对输入序列存在重构问题和预测结果的波动性，进而对上述问题提出了改善方法
     - [Exercise-Enhanced Sequential Modeling for Student Performance Prediction](https://github.com/ZoeYuhan/Knowledge_Tracing/blob/master/Paper/Exercise-Enhanced%20Sequential%20Modeling%20for%20Student%20Performance%20Prediction.pdf)
         - 将题面信息引入，不仅作为输入送入模型，而且将题目编码后的向量计算cosine相似度作为atention的socre
-        
+    - [A Self-Attentive model for Knowledge Tracing](https://arxiv.org/pdf/1907.06837.pdf)
+        - 使用Transformer应用于知识追踪
+## Method
+| model | paper |
+| ----  | ----  |
+| DKT   |  [Deep Knowledge Tracing](https://github.com/ZoeYuhan/Knowledge_Tracing/blob/master/Paper/deep%20Knowledge%20Tracing.pdf) | 
+| DKT+  |  [Addressing Two Problems in Deep Knowledge Tracing viaPrediction-Consistent Regularization](https://github.com/ZoeYuhan/Knowledge_Tracing/blob/master/Paper/Addressing%20Two%20Problems%20in%20Deep%20Knowledge%20Tracing%20via%20Prediction-Consistent%20Regularization.pdf)    |
+| TCN-KT|  None |
+| Transformer-KT | [A Self-Attentive model for Knowledge Tracing](https://arxiv.org/pdf/1907.06837.pdf) | 
+
+
+
+##  Usage  ： 
+
+```bash
+python DKT/run_dkt.py 
+```
+
 ----
 ### Acknowledgement
 - Blog:
-    - [深度知识追踪](https://blog.csdn.net/Zoe_Su/article/details/84481651)
+    - [深度知识追踪](https://sulingling123.github.io/2019/08/06/%E6%B7%B1%E5%BA%A6%E7%9F%A5%E8%AF%86%E8%BF%BD%E8%B8%AA/)
     - [论文导读：Exercise-Enhanced Sequential Modeling for Student Performance Prediction](https://blog.csdn.net/Zoe_Su/article/details/84566409)
